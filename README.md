@@ -8,4 +8,5 @@ Me as a person I like to enjoy stuff and have fun, so I implemented as much anim
 
 I feel this portfolio isn't done yet, since there a few minor fixes and changes I still have in mind for. And I'd defintely want to improve the design overall since it still feels a bit plain for me.
 
+Link to portfolio:[(https://project-portfolio-ochre.vercel.app/)](https://project-portfolio-ochre.vercel.app/) 
 ![Alt text](image.png)
