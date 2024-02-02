@@ -31,11 +31,14 @@ const HeroSection = () => {
 }
 
 const Section = styled.section`
-    height:100vh;
-    width:100%;
+    min-height:100vh;
+    max-height:100vh;
+    max-width:100%;
     display:flex;
     justify-content:center;
     align-items:center;
+
+   
 `
 const SectionContent = styled.div`
     display:flex;
@@ -72,7 +75,7 @@ const Picture = styled.img`
     width:25vw;
     border-radius:50%;
     @media (max-width:1500px) { 
-        width:40vw;
+        width:400px;
     }
 `
 const Title = styled.h2`

@@ -81,7 +81,7 @@ const AboutSection = ({isViewed}) => {
 
 const Section = styled.section`
     height:100vh;
-    width:100%;
+    max-width:100;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -92,9 +92,9 @@ const SectionContent = styled.div`
     justify-content:space-evenly;
     flex-direction: column;
     flex-wrap:wrap;
-    width:60%;
-    /* border:1px solid black; */
-    
+    width:60%; 
+
+   
 `
 
 const AboutMe = styled.div`
@@ -102,6 +102,8 @@ const AboutMe = styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
+
+    
 `
 
 const Skills = styled.div`
@@ -128,7 +130,11 @@ const ContentText = styled.p`
     margin-top:10px;
 
     @media (max-width:1500px) { 
-        font-size:3vw;
+        font-size:25px;
+    }
+
+    @media (max-width:1200px) { 
+        font-size:18px;
     }
 `
 const ContentTite = styled.h2`
@@ -137,8 +143,12 @@ const ContentTite = styled.h2`
     text-align:center;
     border-bottom:1px solid black;
 
-    @media (max-width:1500px) { 
-        font-size:5vw;
+    @media (max-width:1500px) {
+        font-size:2.5em;
+    }
+
+    @media (max-width:1200px) { 
+        font-size:25px;
     }
 `
 

@@ -69,7 +69,7 @@ const ContentTite = styled.h2`
     font-size:2vw;
 
     @media (max-width:1500px) { 
-        font-size:4vw;
+        font-size:40px;
     }
 `
 
@@ -96,7 +96,7 @@ const ContactForm = styled.form`
     margin-top:30px;
 
     @media (max-width:1500px) { 
-        width:80%;
+        width:60%;
         font-size:3vw;
     }
 `
@@ -131,7 +131,7 @@ const SubmitButton = styled.input`
     }
 
     @media (max-width:1500px){
-        font-size:2vw;
+        font-size:20px;
     }
     
 `

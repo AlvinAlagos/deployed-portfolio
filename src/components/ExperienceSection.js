@@ -55,8 +55,10 @@ const SectionContent = styled.div`
     flex-direction: column;
     flex-wrap:wrap;
     width:60%;
-    /* border:1px solid black; */
-    
+
+    @media (max-width:1500px) {
+        min-width:70%;
+    }
 `
 
 const EducationArea = styled.div`
@@ -79,12 +81,11 @@ const InfoCard = styled.div`
     &:hover{
         transform: rotateX(360deg);
     }
-
-    
+ 
 `
 const Info = styled.div`
     @media (max-width:1500px) { 
-        font-size:2vw;
+        font-size:16px;
     }
 `
 const Logo = styled.div`
@@ -97,7 +98,7 @@ const Img = styled.img`
     float:right;
 
     @media (max-width:1500px) { 
-        width:25%;
+        width:150px;
     }
 `
 const ContentTite = styled.h2`
@@ -107,7 +108,7 @@ const ContentTite = styled.h2`
     color:#56ffc5;
 
     @media (max-width:1500px) { 
-        font-size:4vw;
+        font-size:35px;
     }
 `
 const ContentTite2 = styled.h2`
@@ -117,7 +118,7 @@ const ContentTite2 = styled.h2`
     color:#56ffc5;
 
     @media (max-width:1500px) { 
-        font-size:4vw;
+        font-size:35px;
     }
 `
 

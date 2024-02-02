@@ -39,11 +39,11 @@ function App() {
       const sectionHeight = document.getElementById('hero').offsetHeight;
       if(event.deltaY > 0){
         if(window.innerWidth > 1500)
-          window.scrollTo(0,newYOffset + sectionHeight)
+          // window.scrollTo(0,newYOffset + sectionHeight)
         checkIfViewed();
       }else if(event.deltaY < 0){
         if(window.innerWidth > 1500)
-          window.scrollTo(0,newYOffset - sectionHeight)
+          // window.scrollTo(0,newYOffset - sectionHeight)
         checkIfViewed();
       }
     }
@@ -55,11 +55,6 @@ function App() {
       window.removeEventListener("beforeunload", handleUnload);
     };
   },[])
-
-  //Will do more research on touchmove
-  // useEffect(() => {
-  //   document.getElementById('root').addEventListener("touchmove",handleScroll)
-  // },[])
 
   useEffect(() => {
     document.getElementById('root').addEventListener("wheel",handleScroll)

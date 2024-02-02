@@ -52,25 +52,12 @@ const GlobalStyle = createGlobalStyle`
     
     body,html{
         background-color:#2e2e2e;
-        overflow: hidden;
+        
     }
     
-    body{
-        position:relative
-    }
-    body::-webkit-scrollbar {
-    display: none;
-    }
 
-    .root{
-        width:100vw;
-    }
 
-    @media (max-width:1500px) { 
-        body,html{
-            overflow:visible;
-        }
-    }
+
 `
 
 export default GlobalStyle;
