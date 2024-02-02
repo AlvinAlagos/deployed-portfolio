@@ -4,6 +4,8 @@ const GlobalStyle = createGlobalStyle`
     html{
         scroll-behavior:smooth;
     }
+
+
        html, body, div,
     input, button, select, option,
     h1, h2, h3, h4, h5, h6, p,
@@ -52,7 +54,12 @@ const GlobalStyle = createGlobalStyle`
     
     body,html{
         background-color:#2e2e2e;
-        
+        width: 100vw;
+        min-width: 100vw;
+        max-width: 100vw;
+
+        overflow-x: hidden;
+        overflow-y: auto;
     }
     
 
