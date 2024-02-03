@@ -69,6 +69,11 @@ const AboutInfo = styled.div`
     display:flex;
     flex-direction: column;
     margin-top:50px;
+
+    @media (max-width:600px) { 
+        font-size:2vw;
+        text-align:center;
+    }
 `
 const Picture = styled.img`
     background-color:white;
@@ -76,6 +81,10 @@ const Picture = styled.img`
     border-radius:50%;
     @media (max-width:1500px) { 
         width:400px;
+    }
+
+    @media (max-width:600px) { 
+        width:200px;
     }
 `
 const Title = styled.h2`
@@ -98,6 +107,7 @@ const AboutText = styled.p`
     }
 
     
+    
 `
 const ImgLinks = styled.ul`
     width:100%;
@@ -110,5 +120,9 @@ const ImgLinks = styled.ul`
 
 const Icon = styled.img`
     width:60px;
+
+    @media (max-width:600px) { 
+        max-width:40px;
+    }
 `
 export default HeroSection;

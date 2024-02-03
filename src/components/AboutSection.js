@@ -125,6 +125,11 @@ const ListOfSkills = styled.ul`
 `
 const SkillImg = styled.img`
     width:6vw;
+
+    @media (max-width:600px) { 
+        min-width:30px;
+        max-width:30px;
+    }
 `
 const ContentText = styled.p`
     margin-top:10px;
@@ -135,6 +140,10 @@ const ContentText = styled.p`
 
     @media (max-width:1200px) { 
         font-size:18px;
+    }
+
+    @media (max-width:600px) { 
+        font-size:15px;
     }
 `
 const ContentTite = styled.h2`

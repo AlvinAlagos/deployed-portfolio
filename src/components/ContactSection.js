@@ -61,16 +61,16 @@ const SectionContent = styled.div`
     width:60%;
 `
 
-const ContentTite = styled.h2`
+const ContentTite = styled.h1`
     width:60%;
     text-align:center;
     border-bottom:1px solid #56ffc5;
     color:#56ffc5;
-    font-size:2vw;
+    
 
-    @media (max-width:1500px) { 
+    /* @media (max-width:1500px) { 
         font-size:40px;
-    }
+    } */
 `
 
 const ImgLinks = styled.ul`
@@ -99,6 +99,9 @@ const ContactForm = styled.form`
         width:60%;
         font-size:3vw;
     }
+    @media (max-width:600px){
+        width:80%;
+    }
 `
 
 const InputField = styled.input`
@@ -124,6 +127,7 @@ const SubmitButton = styled.input`
     height:5vh;
     border-radius: 10px;
     transition: .2s;
+    border:none;
     &:hover{
         color:#56ffc5;
         background-color:#2e2e2e;
@@ -131,7 +135,11 @@ const SubmitButton = styled.input`
     }
 
     @media (max-width:1500px){
-        font-size:20px;
+        font-size:15px;
+    }
+    @media (max-width:800px){
+        font-size:10px;
+        width:100%;
     }
     
 `

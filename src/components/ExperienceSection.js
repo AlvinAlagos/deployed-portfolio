@@ -87,6 +87,10 @@ const Info = styled.div`
     @media (max-width:1500px) { 
         font-size:16px;
     }
+
+    @media (max-width:600px) { 
+        font-size:10px;
+    }
 `
 const Logo = styled.div`
     
@@ -100,6 +104,10 @@ const Img = styled.img`
     @media (max-width:1500px) { 
         width:150px;
     }
+
+    @media (max-width:600px) { 
+        width:90px;
+    }
 `
 const ContentTite = styled.h2`
     width:100%;
@@ -110,6 +118,10 @@ const ContentTite = styled.h2`
     @media (max-width:1500px) { 
         font-size:35px;
     }
+
+    @media (max-width:600px) { 
+       font-size:25px;
+    }
 `
 const ContentTite2 = styled.h2`
     border-bottom:1px solid #56ffc5;
@@ -119,6 +131,10 @@ const ContentTite2 = styled.h2`
 
     @media (max-width:1500px) { 
         font-size:35px;
+    }
+
+    @media (max-width:600px) { 
+       font-size:25px;
     }
 `
 
