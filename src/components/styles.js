@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-    min-height:1000px;
-    max-height:100vh;
+    min-height:950px;
     width:100%;
     display:flex;
     justify-content:center;
     background-color:white;
-    @media (max-width:1500px) { 
-        height:auto;
+    @media (max-width:1000px) { 
+        min-height:auto;
+        padding-bottom:30px;
     }
 
 
